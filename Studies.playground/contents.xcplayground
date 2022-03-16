@@ -3,5 +3,6 @@
     <pages>
         <page name='Arrays'/>
         <page name='functions'/>
+        <page name='Guard'/>
     </pages>
 </playground>
