@@ -1,5 +1,7 @@
 // an array of integer type
 
+import Darwin
+
 var numbers = [2, 4, 6, 8, 10]
 
 //print("Array: \(numbers)")
@@ -13,11 +15,16 @@ var names = [String]()
 // Access Array Elements
 
 var languages = ["Javascript", "Python", "Swift"]
-print("Initial Array: \(languages)")
+//print("Initial Array: \(languages)")
 
 languages.append("C++")
 
-print("Updated Array: \(languages)")
+//print("Updated Array: \(languages)")
 
 let removeValue = languages.remove(at: 0)
-print("Remove value: \(languages)")
+//print("Remove value: \(languages)")
+
+// Array Length
+
+let LengthArray = languages.count
+print(LengthArray)
